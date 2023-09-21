@@ -1,4 +1,5 @@
 @import 'reset';
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@100&display=swap');
 
 body {
 	width: 100%;
@@ -7,18 +8,21 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 
 	&.morning {
-		background: orange;
+		background-image: url(../img/bg_morning.jpg);
 	}
 	&.afternoon {
-		background: lightblue;
+		background-image: url(../img/bg_afternoon.jpg);
 	}
 	&.evening {
-		background: pink;
+		background-image: url(../img/bg_evening.jpg);
 	}
 	&.night {
-		background: violet;
+		background-image: url(../img/bg_night.jpg);
 	}
 
 	article {
@@ -30,5 +34,6 @@ body {
 		align-items: center;
 		color: #fff;
 		font-size: 50px;
+		font-family: 'Orbitron';
 	}
 }

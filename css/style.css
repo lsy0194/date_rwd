@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@100&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -21,18 +22,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 body.morning {
-  background: orange;
+  background-image: url(../img/bg_morning.jpg);
 }
 body.afternoon {
-  background: lightblue;
+  background-image: url(../img/bg_afternoon.jpg);
 }
 body.evening {
-  background: pink;
+  background-image: url(../img/bg_evening.jpg);
 }
 body.night {
-  background: violet;
+  background-image: url(../img/bg_night.jpg);
 }
 body article {
   width: 60%;
@@ -43,6 +47,7 @@ body article {
   align-items: center;
   color: #fff;
   font-size: 50px;
+  font-family: "Orbitron";
 }
 
 /*# sourceMappingURL=style.css.map */
